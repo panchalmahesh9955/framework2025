@@ -70,6 +70,7 @@ public class Ecommerce_BaseClass {
 	public void Teardown() throws InterruptedException {
 		Thread.sleep(3000);
 		driver.quit();
+		System.out.println("rutuja");
 
 		
 	}
